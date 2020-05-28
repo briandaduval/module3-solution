@@ -12,13 +12,61 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Boostrap Starter Page</title>
+    <title>Assigment module 3</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
   </head>
 <body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        
+      <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">"FOOD, LLC"</a>
+          </div>
+        
+        
+           <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right" >
+             <li>
+                <a >
+                <span></span><br class="visible-xs"> Chicken</a>
+              </li>
+              <li>
+                <a >
+                <span ></span><br class="visible-xs"> Beef</a>
+              </li>
+              <li>
+                <a >
+                <span ></span><br class="visible-xs"> Sushi</a>
+              </li>
+           </ul><!-- #nav-list -->
 
-  <h1>Hello Coursera!</h1>
+          </div><!-- .collapse .navbar-collapse -->
+        </div><!-- .container -->
+   </nav><!-- #header-nav -->
+    <p class="text-center">Our menu</p>
+     <div id="menu" class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+           <a href="menu-categories.html"><div id="menu-tile"><span>Chicken</span></div></a>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <a href="single-category.html"><div id="specials-tile"><span>Beef</span></div></a>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <a href="single-category.html"><div id="specials-tile"><span>Sushi</span></div></a>
+        </div>
+     </div>
+    </div>
+  </header>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
