@@ -4,41 +4,90 @@
   	
 }
 
+
 #nav-list a {
    text-align: center;
+   font-family: 'Comfortaa', cursive;
+   font-size: 20px;
 }
 
 .text-center
-{
-	font-style: 'Oxygen', sans-serif;
+{	font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+	width: 100%;
 }
 
+.container2 {
+   text-align: center;
+	
+}
+
+#chicken-tile{
+text-align: center;
+height: 1600px;
+background-color: #E7E7E7;
+}
+ #chicken-tile span
+{   position: relative;
+	height: 1300px;
+	font-family: 'Muli', sans-serif;
+	background-color: #E7E7E7;
+	text-align: center;
+	padding: 0px;
+	margin:0px;
+	width: 100%
+}  
+#chicken-tile p{
+	text-align: center;
+    color: #000;
+    font-family: 'Muli', sans-serif;
+    font-style: bold;
+}
+
+  
 /********** Large devices only **********/
 @media (min-width: 992px) {
 #nav-list a {
 	visibility: hidden;
 	text-align: center;	
    }
-  
+ .col-md-11 {
+    width: 100%;
+    
+}
+ 
+ 
 }
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   /* Header */
    
-  
+   .col-md-11 {
+    width: 100%;
+   
+}  
+
   /* End Header */
 }
 
 /********** Small devices only **********/
 @media (min-width: 576px) and (max-width: 767px) {
-
+#menu 
+{
+	height: 1100px;
+	width: 100%
+	background-color: #E7E7E7;
+}  
+   .col-md-11 {
+    width: 100%;
+    padding: 10px
+}
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 575px) {
-/* Header */
- 
+
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
   }
@@ -47,6 +96,14 @@
     margin-right: 5px;
   }
 
-  /* End Header */
+.col-xs-12 {
+   width: 100%;
+   padding-left: 60px;
+   padding-right: 60px;
 
+
+
+}
+
+ 
 }
