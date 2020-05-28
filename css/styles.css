@@ -4,7 +4,6 @@
   	
 }
 
-
 #nav-list a {
    text-align: center;
    font-family: 'Comfortaa', cursive;
@@ -68,6 +67,10 @@ background-color: #E7E7E7;
    
 }  
 
+#nav-list a {
+	visibility: hidden;
+	text-align: center;	
+   }
   /* End Header */
 }
 
@@ -83,6 +86,7 @@ background-color: #E7E7E7;
     width: 100%;
     padding: 10px
 }
+
 }
 
 /********** Extra small devices only **********/
@@ -95,6 +99,7 @@ background-color: #E7E7E7;
     font-size: 1em;
     margin-right: 5px;
   }
+
 
 .col-xs-12 {
    width: 100%;
